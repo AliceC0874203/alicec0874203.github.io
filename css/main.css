@@ -75,10 +75,10 @@ body {
 
 body {
 	background: #151515;
-	font-family: "lora-regular", serif;
+	font-family: "poppins-semibold", sans-serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #ff5ba7;
 }
 
 /**
@@ -197,7 +197,7 @@ p img {
 }
 
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-semibold", sans-serif;
 	font-size: 1.7rem;
 	line-height: 1.8;
 	color: #888888;
@@ -412,7 +412,7 @@ table {
 	border-width: 0;
 	width: 100%;
 	max-width: 100%;
-	font-family: "lora-regular", sans-serif;
+	font-family: "poppins-semibold", sans-serif;
 }
 
 th,
@@ -1375,9 +1375,9 @@ header .logo a {
 	text-shadow: none;
 	color: transparent;
 	width: 92px;
-	height: 15px;
+	height: 20px;
 	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	background-size: 92px 20px;
 }
 
 /**
@@ -1624,7 +1624,7 @@ header .logo a {
 }
 
 .intro-content .intro-position {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-semibold", sans-serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -2049,6 +2049,11 @@ header .logo a {
 #resume .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
+}
+
+#resume .timeline-content p {
+	font-family: "poppins-regular", sans-serif;
+	color: #888888;
 }
 
 #resume .timeline-content h4 {
