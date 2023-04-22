@@ -2169,9 +2169,18 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background: #151515;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+	position: relative;
+	max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#portfolio .section-intro h1 {
+	color: #FFFFFF;
 }
 
 #portfolio .folio-item {
